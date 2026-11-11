@@ -1,0 +1,37 @@
+# Local datasets and generated experiments
+HomeFire/
+datasets/
+runs/
+reports/
+checkpoint_backups/
+results/experiments/
+results/predictions/
+support/reports/
+.runtime/
+
+# Keep only the selected trained checkpoint
+*.pt
+!models/best.pt
+*.onnx
+*.engine
+*.cache
+*.zip
+*.tar.gz
+
+# Python, editors, and local credentials
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

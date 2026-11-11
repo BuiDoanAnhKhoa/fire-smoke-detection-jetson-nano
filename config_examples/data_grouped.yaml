@@ -1,0 +1,9 @@
+# EXAMPLE: grouped split used by local training. Not needed for inference.
+# Restore the dataset and its original manifests before using this configuration.
+path: /absolute/path/to/HomeFire
+train: /absolute/path/to/HomeFire/splits/train.txt
+val: /absolute/path/to/HomeFire/splits/val.txt
+test: /absolute/path/to/HomeFire/splits/test.txt
+names:
+  0: fire
+  1: smoke

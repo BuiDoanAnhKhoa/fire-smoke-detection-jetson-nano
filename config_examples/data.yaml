@@ -1,0 +1,8 @@
+# EXAMPLE: original folder-based split. Not needed for inference.
+path: /absolute/path/to/HomeFire
+train: train/images
+val: val/images
+test: test/images
+names:
+  0: fire
+  1: smoke

@@ -1,0 +1,7 @@
+# Install the appropriate PyTorch/torchvision build separately; see README.md.
+# Versions recorded for the completed training run.
+ultralytics==8.4.171
+numpy==2.2.6
+opencv-python==5.0.0.93
+pillow==12.3.0
+PyYAML==6.0.3
